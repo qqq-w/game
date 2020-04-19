@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .nav {
+            width: 1000px;
+            height: 900px;
+            position: relative;
+            margin: 0 auto;
+            background-color: #000;
+            transform: scale(1);
+        }
+        
+        .sun {
+            left: 475px;
+            top: 255px;
+            width: 90px;
+            height: 90px;
+            background-color: rgb(248, 66, 35);
+            border-radius: 50%;
+            position: absolute;
+            box-shadow: 5px 5px 10px rgb(248, 270, 35), -5px -5px 10px rgb(248, 270, 35), 5px -5px 10px rgb(248, 270, 35), -5px 5px 10px rgb(248, 270, 35);
+        }
+        
+        .mercury {
+            left: 450.5px;
+            top: 295px;
+            width: 10px;
+            height: 10px;
+            background-color: rgb(166, 138, 56);
+            border-radius: 50%;
+            position: absolute;
+            transform-origin: 70.5px 5px;
+            animation: rotate 5s infinite linear;
+        }
+        
+        .mercuryorbit {
+            left: 453px;
+            top: 234px;
+            width: 130px;
+            height: 130px;
+            background-color: transparent;
+            border-radius: 50%;
+            border-style: dashed;
+            border-color: gray;
+            position: absolute;
+            border-width: 1px;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .er {
+            left: 426px;
+            top: 295px;
+            width: 20px;
+            height: 20px;
+            background-color: rgb(51, 144, 145);
+            border-radius: 50%;
+            position: absolute;
+            transform-origin: 93px 5px 5px;
+            animation: rotate 10s infinite linear;
+        }
+        
+        .erorbit {
+            left: 438px;
+            top: 219px;
+            width: 160px;
+            height: 160px;
+            background-color: transparent;
+            border-radius: 50%;
+            border-style: dashed;
+            border-color: gray;
+            position: absolute;
+            border-width: 1px;
+            margin: 0px;
+            padding: 0px;
+        }
+        /*35px;*/
+        
+        .san {
+            left: 385px;
+            top: 295px;
+            width: 20px;
+            height: 20px;
+            background-color: rgb(85, 32, 451);
+            border-radius: 50%;
+            position: absolute;
+            transform-origin: 140px 5px 5px;
+            animation: rotate 15s infinite linear;
+        }
+        
+        .sanorbit {
+            left: 395px;
+            top: 174px;
+            width: 250px;
+            height: 247px;
+            background-color: transparent;
+            border-radius: 50%;
+            border-style: dashed;
+            border-color: gray;
+            position: absolute;
+            border-width: 1px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .zi {
+            width: 25px;
+            height: 25px;
+            border: 5px solid green;
+            border-left-color: red;
+            border-right-color: white;
+            border-top-color: yellow;
+            border-radius: 50%;
+        }
+        
+        .si {
+            left: 310px;
+            top: 290px;
+            width: 45px;
+            height: 45px;
+            background-color: lime;
+            border-radius: 50%;
+            position: absolute;
+            transform-origin: 210px 5px 5px;
+            animation: rotate 20s infinite linear;
+        }
+        
+        .siorbit {
+            left: 331px;
+            top: 112px;
+            width: 375px;
+            height: 370px;
+            background-color: transparent;
+            border-radius: 50%;
+            border-style: dashed;
+            border-color: gray;
+            position: absolute;
+            border-width: 1px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .wu {
+            left: 240px;
+            top: 285px;
+            width: 10px;
+            height: 10px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+            transform-origin: 285px 5px 5px;
+            animation: rotate 40s infinite linear;
+        }
+        
+        .wuorbit {
+            left: 262px;
+            top: 35px;
+            width: 515px;
+            height: 515px;
+            background-color: transparent;
+            border-radius: 50%;
+            border-style: dashed;
+            border-color: gray;
+            position: absolute;
+            border-width: 1px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .ran {
+            width: 25px;
+            height: 25px;
+            border: 15px solid lime;
+            border-left-color: purple;
+            border-right-color: cyan;
+            border-top-color: orange;
+            border-radius: 50%;
+        }
+        
+        @keyframes rotate {
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+        
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="sun"></div>
+        <div class="mercury"></div>
+        <div class="mercuryorbit "></div>
+        <div class="er"></div>
+        <div class="erorbit"></div>
+        <div class="san zi"></div>
+        <div class="sanorbit"></div>
+        <div class="si"></div>
+        <div class="siorbit"></div>
+        <div class="wu ran"></div>
+        <div class="wuorbit"></div>
+    </div>
+    <a href="san.html">继续前行</a>
+</body>
+
+</html>

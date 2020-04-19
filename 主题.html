@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>语录</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        @media screen and (min-width:300px) {
+            p {
+                color: red;
+                width: auto;
+                margin-left: -7em;
+                margin-top: 15px;
+            }
+            .total {
+                display: none;
+            }
+            #page_end_html {
+                display: none;
+            }
+            #banner {
+                display: none;
+            }
+        }
+        
+        @media screen and (min-width: 600px) {
+            p {
+                color: blue;
+                width: auto;
+            }
+            .total {
+                display: none;
+            }
+            #page_end_html {
+                display: none;
+            }
+            #banner {
+                display: none;
+            }
+        }
+        
+        @media screen and (min-width: 900px) {
+            p {
+                width: 925px;
+                margin-left: 2em;
+                color: purple;
+            }
+            .total {
+                display: block;
+            }
+            #page_end_html {
+                display: block;
+            }
+            #banner {
+                display: block;
+            }
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        body {
+            user-select: none;
+        }
+        
+        #banner {
+            width: 520px;
+            height: 280px;
+            position: relative;
+            top: 0%;
+            left: 2%;
+            margin: 50px 0 20px 0;
+        }
+        
+        .pic img {
+            position: absolute;
+            width: 520px;
+            height: 280px;
+        }
+        
+        .tabs {
+            position: absolute;
+            bottom: 10px;
+            left: 42%;
+        }
+        
+        .tabs li {
+            width: 10px;
+            height: 10px;
+            border: 1px solid white;
+            float: left;
+            margin-left: 5px;
+            border-radius: 50%;
+        }
+        
+        .btn {
+            color: white;
+            font-size: 30px;
+            position: absolute;
+            top: 40%;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            color: red;
+        }
+        
+        .btn1 {
+            left: 0;
+        }
+        
+        .btn2 {
+            right: 0;
+        }
+        
+        .bg {
+            background-color: red;
+        }
+        
+        .foo {
+            float: left;
+            margin: 45px;
+            background: url(abcd.jpg) no-repeat;
+        }
+        
+        .wan {
+            width: 132px;
+            height: 102px;
+            background-position: -120px -567px;
+        }
+        
+        .top {
+            width: 106px;
+            height: 104px;
+            background-position: -479px -12px;
+        }
+        
+        .the {
+            width: 59px;
+            height: 110px;
+            background-position: -327px -144px;
+        }
+        
+        .font {
+            width: 114px;
+            height: 110px;
+            background-position: -138px -417px
+        }
+        
+        .size {
+            width: 107px;
+            height: 104px;
+            background-position: 0 -12px;
+        }
+        
+        .nav {
+            width: 117px;
+            height: 106px;
+            background-position: -252px -278px;
+        }
+        
+        .page {
+            text-align: center;
+            display: block;
+            color: white;
+            background: #E91E63;
+            width: 115px;
+            height: 30px;
+            margin: 120px auto;
+            line-height: 30px;
+            text-decoration: none;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 轮播图 -->
+    <div id="banner">
+        <div class="pic">
+            <div class="picImg"><img src=" 1.jpg"></div>
+            <div class="picImg"><img src=" 2.jpg"></div>
+            <div class="picImg"><img src=" 3.jpg"></div>
+            <div class="picImg"><img src=" 4.jpg"></div>
+        </div>
+        <ul class="tabs">
+            <li class="bg"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="btn btn1">&lt;</div>
+        <div class="btn btn2">&gt;</div>
+    </div>
+    <!-- 扣字 -->
+    <div class="total">
+        <div class="wan foo"></div>
+        <div class="top foo"></div>
+        <div class="the foo"></div>
+        <div class="font foo"></div>
+        <div class="size foo"></div>
+        <div class="nav foo"></div>
+    </div>
+
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;梅花优于香，桃花优于色，每个人都是独立的个体，都有自己的个性和优点不要看不起任何人，要善于发现别人的长处。
+        <br> 人的一生实际就是一个不断适应的过程。
+        <br> 低调者更容易成事，无论自己有多大的能耐，万不可锋芒毕露。
+        <br> 或棋逢对手，或生死相随，或心意相通，但凡生命中有任何一个出现，孤独也就有了解药。
+        <br> 嘴巴是别人的，但耳朵是自己的，你没法决定他们说什么，但是你可以决定不理会。
+        <br> 视深渊过久，深渊必将回应凝视。和小人纠缠过久，君子也会染上小人气息
+        <br> 一帆风顺的人生，更多的是我们美好的愿望，现实生活中是不复存在的，挫折恰是人生的常态，但挫折不等于失去，也不等于失败，只要有颗奋发的心永不停息，一切皆有预期。
+        <br> 平静的湖面，练不出精悍的水手，安逸的环境，造不时代的伟人。
+        <br> 自己选择的路，跪着也要走完，世上没有绝对的处境，只有对处境绝望的人，平凡的脚步也可以走完伟大的行程，有志者自有千计万计，无志者只感千难万难。
+        <br> 一个人如果思虑过多就会失去做人的乐趣。
+        <br> 遇到到逆境先稳住，要做的不是立刻赢，而是现在不能输。
+        <br> 一时的顺境不代表永远的顺境，一时的欢乐未必是永远的欢乐。
+        <br> 天将降大任于斯人也，必先苦其心志，劳其筋骨，饿其体肤，空乏其身，行拂乱其所为。
+        <br> 一念既起，拼尽心力当下完成，那一刻，才算是真正的拥有。
+        <br> 世事无常，趁阳光正好，趁微风不燥，想爱的人就去爱，想见的人就去见，想做的事就去做。
+        <br> 我们总是计划的很美，目标定的很具体，但落地执行，却一塌糊涂，最终只能不了了之，黯然收场。 没有执行力，再好的计划也只是纸上谈兵。
+        <br> 人生旅途，许多事情生不由己，总不尽完美，生命是一张没有返程的单程票，多留点欢乐给自己；生活 是一幕没有彩排的情景剧，多储存一些感动给自己。
+        <br> 命运是无法逃脱的，面对危险才是英雄。没有比漫无目的徘徊更令人无法忍受的了。
+        <br> 当我们还买不起幸福的时候，我们绝不应该走的离橱窗太近，盯着幸福出神。
+        <br> 最好是通过别人的厄运，而不是通过自己的厄运来学的聪明。
+        <br> 一个人越是具有欣赏别人优点的能力，就越容易为那些优点所倾倒。
+        <br> 成就往往喜欢那些虚怀若谷，并能时常审视自己的人。
+
+        <br> 人生路上，我们遇到最大的敌人，有时不是能力，不是条件，而是情绪。
+        <br> 活在废旧的时光里，是对今天的不礼貌，珍惜今天的生活，就是对明天最好的尊重，不要把今天当成 向明天的跳板，更不要背着昨天追赶明天而忘了今天的生活。
+        <br> 有些路，走下去会会很苦很累，但是不走会后悔。没人心疼，也要坚强；没人鼓掌，也要飞翔，要记住越努力越幸运。很多时候，我们看到了浮华，却看不透其下涌动的暗流；有些人表面很幸福，是他掩藏了难言的苦；有些人脸上挂这笑，心里满是无声的泪。
+        <br> 人生要勇于接受挑战，经受得起挑战的人才能够领悟人生非凡的真谛，才能够实现自我无限的超越，才能够创造魅力永恒的价值。
+
+        <br> 有些的机会，因瞬间的犹豫，擦肩而过；有些缘分，因一时的任性，滑落指尖；有些情感，因一时的冲动，遗憾一生；有些人，一转身就是一辈子；许多感情疏远淡漠，无力挽回，只源一念之差。
+        <br> 其实每个人，不过像沙漠里的一粒尘埃，来是偶然，去势必然，无需埋怨；只管，以最从容的姿态，安之若素，将万千繁华赏尽，携一抹风轻云淡，笑看流年。
+
+        <br> 最大的魅力不是成功，而是责任；最好的教育不是灌输，而是启蒙；最快的步伐不是跳跃，而是继续；最慢的步伐不是缓慢，而是徘徊；最宽的道路不是 高速公路，而是直截了当；人生没有多走的路，脚下的每一步都算数。没有不请自来的幸运，只有有备而来的惊艳。没有人能定义你的未来，除了自己。
+        <br> 努力并不是为了给任何人留下深刻印象或展示给任何人，而是为了让自己在任何时候都能跳出厌恶的圈子，并且有权选择自己喜欢的生活方式。
+
+
+        <br> 如果你敢做别人今天不敢做的事，你就可以拥有别人明天不能拥有的财富。不要在意别人的流言蜚语，因为未来是你自己的，不是你是否可以，而是你是否想给自己一个完美的账户，为了自己努力工作！你工作越努力，你就越幸运！
+
+        <br> 最能让人感到快乐的事，莫过于经过一番努力后，所有东西慢慢变成你想要的样子。
+        <br> 世上没有一件工作不辛苦，没有一处人事不复杂。你排斥现在的不愉快，光阴也不会过得慢点。所以不要随意发脾气，谁都不欠你的、越努力越幸运，当人有了足够的内涵和物质做后盾，人生会变得底气十足。
+
+
+        <br> 冲动是魔鬼，你永远都要为自己的行为买单，事不三思终有悔，人能百忍自无忧。愤怒，人性中最黑暗、令人坐立不安的负面情绪。一旦我们的生活被它所控制和影响，那将会伤害到我们的健康、破坏我们和亲人的关系，让我们更难得到幸福、健康生活。
+
+
+        <br> 生活不可能平静如水，人生也不会事事如意，人的感情出现波动是很自然的事情。可有些人往往遇到一点不顺心的事便会火冒三丈，怒不可赦，乱发脾气。结果非但不能解绝问题，反而会伤了感情，弄僵关系，使原本不如意的更加雪上加霜。与此同时，生气产生的不良情绪还会严重影响身心健康。
+        <br> 愤怒使人失去理智，其结果往往是糟糕的，甚至糟到不可收拾的地步。
+        <br> 始于无话不谈，终于无话可说。
+
+        <br> 缘起偶然，缘聚欣然，缘尽释然，缘散释然
+
+
+        <br> 我们活得累，一是期望过甚，总盼着玉米地里长黄金，小河沟里捞大鱼，预期与现实脱节，条件与结果相悖；二是设想过高，总以为攀高无须坚韧，对困难 估量不足；皆想据为己有，攀比心太重，终是乱了心神迷了人生。
+        <br> 灵魂是能互相影响的。行善之人，总有善缘。你若心存善念，就会引来心存善念之人，一个善良的灵魂，总在不经意间，散发芬芳。
+        <br> 人生的高度，不是来自他取得了多少成就，而是他丢脚下踩过了多少艰难和困苦。
+
+        <br> 人活着脸皮就要厚点，这也不好意思，那也不好意思，那你怎么好意思活着？出错了出丑了一笑而过，有什么好怕的？当你对这个世界好意思的时候，成 长会与日俱增；
+        <br> 改变不了大环境，就改变小环境，做自己力所能及的事情。你不能决定太阳几点升起，但可以决定自己几点床。
+
+        <br> 承诺这东西，太不值钱了吧。上下牙一碰的事儿，没有成本，听听罢了，入耳过，别上心。
+        <br> 人生不可能总是顺心如意，但持续朝着阳光走，影子就会躲在身后。刺眼，却是对的方向。
+
+        <br> 坚信努可以带来好运气，相惜用心可以交到真感情，身心善良是个好东西。
+        <br> 努力生活，努力面对每一天的挑战、接受自己、保持平常心，一切都会朝着好方向前进。
+        <br> 生活坏到一定程度就会好起来，因为它无法更坏。努力过后，才知道许多事情，坚持坚持，就过来了。 你被什么保护，就被什么限制，能给你遮风挡雨的，同样能让你不见天日。
+
+        <br> 所谓混的好的，一定有不为人知的痛苦和付出的代价；所谓混得不好的，也有数以自己的平静和幸福，就看怎能看待它，怎么善待拥有的好。
+
+        <br> 人生首先要的是望远镜，看远；再就是显微镜，看细；接下来是放大镜，看透；其次是太阳镜，看淡；最后是哈哈镜，笑看生活。给自己一些时间，原谅 做过很多傻事的自己，接受自己，爱自己。过去的都会过去，该来的都在路上！
+
+        <br> 无论是苦心寻，还是途中偶遇，那些美好的人与事都要加倍珍惜，别奢望下一站还有原样的风景，错过的东西或许就是无期。
+        <br> 生活总是这么居高临下，你想要的一切都要靠自己的双手去得到，这个世界上没有无条件的给予。
+        <br> 成功靠自己，成长靠对手，成就靠团队。人生的奔跑，不在于瞬间的爆发，而在以途中的坚持。很多时候，成功就是多坚持一分钟，只是我们不知道，这一分钟会在什么时候出现。所以，即使累了，也不要轻易停下脚步。
+        <br> 坚持到底，才能笑到最后。人可以打败自己，也能成全自己。没有人会知道下一秒会发生什么，只有这一秒不放弃，下一秒就有可能出奇迹，成功的人不 一定是那些条件最好\能力最强的，却一定是那些意志最坚定、战斗力最顽强的。只要不抛弃梦想，不放弃努力，你也可以见证奇迹。
+
+        <br> 有那么一群小孩子在一大块麦田里做游戏。几千几万个孩子，附近没有一个人--没有一个大人，我是说--除了我。我呢，就站在那混账的悬崖边。我的职 务就是在那儿守望，要是有哪个孩子往悬崖边奔来，我就把他捉住--我是说孩子们都在狂奔，也不知道自己是在往哪儿跑，我得从什么地方出来，把他们 捉住。我整天就干这样的事。我只想当个麦田里的守望者。
+
+        <br>
+    </p>
+
+    <!-- 猫背景 -->
+    <div id="page_end_html">
+
+
+        <canvas id="catw" width="500" height="500" style="position: fixed; bottom: 0;right:0;"></canvas>
+        <script src="https://cdn.zhangxinxu.com/sp/demo/live2d/live2d/js/live2d.js"></script>
+        <script type="text/javascript">
+            loadlive2d("catw", "https://cdn.jsdelivr.net/gh/QiShaoXuan/live2DModel@1.0.0/live2d-widget-model-tororo/assets/tororo.model.json");
+        </script>
+    </div>
+    <a href="block.html" class="page">进入下一页</a>
+
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script>
+        var i = 0;
+        var Timer;
+        $(function() {
+            $(".picImg").eq(0).show().siblings().hide(); //默认第一张图片显示，其他的隐藏
+            //自动轮播
+            TimerBanner();
+            //点击红圈
+            $(".tabs li").hover(function() {
+                //鼠标移动上去
+                clearInterval(Timer);
+                //    让计时器暂时停止   清除计时器
+                i = $(this).index();
+                //获取改圈的索引
+                showPic();
+                //调用显示图片的方法，显示该索引对应的图片
+            }, function() {
+                //鼠标移开
+                TimerBanner();
+                //继续轮播  计时器开始
+            });
+
+            //点击左右按钮 
+            $(".btn1").click(function() {
+                clearInterval(Timer);
+                i--;
+                //    往左
+                if (i == -1) {
+                    i = 4;
+                }
+                showPic();
+                TimerBanner();
+            })
+            $(".btn2").click(function() {
+                clearInterval(Timer);
+                i++;
+                //往右
+                if (i == 4) {
+                    i = 0;
+                }
+                showPic();
+                TimerBanner();
+            })
+        })
+
+        //轮播部分
+        function TimerBanner() {
+            Timer = setInterval(function() {
+                i++;
+                if (i == 4) {
+                    i = 0;
+                }
+                showPic();
+            }, 2500)
+        }
+
+        //显示图片
+        function showPic() {
+            $(".picImg").eq(i).show().siblings().hide();
+            $(".tabs li").eq(i).addClass("bg").siblings().removeClass("bg");
+        }
+        window.onscroll = function() {
+            var top = document.documentElement.scrollTop;
+            if (top == 500) {
+                alert("视觉疲劳就休息下");
+            } else if (top == 1664) {
+                alert("待更新");
+            }
+            console.log(top);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #header {
+            width: 100%;
+            background-color: #ccc;
+        }
+        
+        #origin {
+            width: 0%;
+            height: 30px;
+            background-color: #0f0;
+            text-align: center;
+            line-height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div id="origin">0%</div>
+    </div>
+    <br>
+    <button onclick="move()">游戏即将开始</button>
+    <script>
+        function move() {
+            var elem = document.getElementById("origin");
+            var width = 0;
+            var id = setInterval(frame, 50);
+
+            function frame() {
+                if (width >= 100) {
+                    // clearInterval(id);
+                    location.href = "1/88.html";
+                } else {
+                    width++;
+                    elem.style.width = width + "%";
+                    elem.innerHTML = width + "%";
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
